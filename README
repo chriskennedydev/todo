@@ -1,0 +1,29 @@
+todo
+----
+A cross platform todo list application for a range of CLIs.
+
+Pre-Requirements
+----------------
+MacOS or Linux-based OS:
+
+gcc 
+make
+
+Windows OS:
+Visual Studio or Visual Studio Build Tools (C/C++)
+
+Install
+-------
+MacOS or Linux-based OS:
+Running make will create the debug build in the ./bin/ directory. It will also delete existing ./bin/ and ./pkg/ directories. 
+
+Other options:
+
+make release
+make install (requires release build and sudo permissions)
+make clean (deletes ./bin/ and ./pkg/ directories)
+make debug (creates the debug build in ./bin/)
+
+Windows OS:
+Load the *.sln in Visual Studio, execute Debug or Release builds. I create a Todo folder in C:\Program Files and then move the .\x64\Release\todo.exe into C:\Program Files\Todo. Add C:\Program Files\Todo into your PATH variable. 
+
